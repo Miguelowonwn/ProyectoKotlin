@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--> <!-->
+    <color name="Rojo">#FB0000</color>
+    <color name="Naranja">#FF5722</color>
+    <color name="Amarillo">#FFF422</color>
+    <color name="Verde">#08FF00</color>
+    <color name="Cian">#00F6FF</color>
+    <color name="Azul">#0800FF</color>
+    <color name="Violeta">#D000FF</color>
+    <!--> 20 <!-->
+    <color name="black20">#33000000</color>
+    <color name="white20">#33FFFFFF</color>
+    <color name="Rojo20">#33FB0000</color>
+    <color name="Naranja20">#33FF5722</color>
+    <color name="Amarillo20">#33FFF422</color>
+    <color name="Verde20">#3308FF00</color>
+    <color name="Cian20">#3300F6FF</color>
+    <color name="Azul20">#330800FF</color>
+    <color name="Violeta20">#33D000FF</color>
+    <!--> 35 <!-->
+    <color name="black35">#59000000</color>
+    <color name="white35">#59FFFFFF</color>
+    <color name="Rojo35">#59FB0000</color>
+    <color name="Naranja35">#59FF5722</color>
+    <color name="Amarillo35">#59FFF422</color>
+    <color name="Verde35">#5908FF00</color>
+    <color name="Cian35">#5900F6FF</color>
+    <color name="Azul35">#590800FF</color>
+    <color name="Violeta35">#59D000FF</color>
+    <!--> 50 <!-->
+    <color name="black50">#80000000</color>
+    <color name="white50">#80FFFFFF</color>
+    <color name="Rojo50">#80FB0000</color>
+    <color name="Naranja50">#80FF5722</color>
+    <color name="Amarillo50">#80FFF422</color>
+    <color name="Verde50">#8008FF00</color>
+    <color name="Cian50">#8000F6FF</color>
+    <color name="Azul50">#800800FF</color>
+    <color name="Violeta50">#80110214</color>
+    <!--> 65 <!-->
+    <color name="black65">#A6000000</color>
+    <color name="white65">#A6FFFFFF</color>
+    <color name="Rojo65">#A6FB0000</color>
+    <color name="Naranja65">#A6FF5722</color>
+    <color name="Amarillo65">#A6FFF422</color>
+    <color name="Verde65">#A608FF00</color>
+    <color name="Cian65">#A600F6FF</color>
+    <color name="Azul65">#A60800FF</color>
+    <color name="Violeta65">#A6110214</color>
+    <!--> 80 <!-->
+    <color name="black80">#CC000000</color>
+    <color name="white80">#CCFFFFFF</color>
+    <color name="Rojo80">#CCFB0000</color>
+    <color name="Naranja80">#CCFF5722</color>
+    <color name="Amarillo80">#CCFFF422</color>
+    <color name="Verde80">#CC08FF00</color>
+    <color name="Cian80">#CC00F6FF</color>
+    <color name="Azul80">#CC0800FF</color>
+    <color name="Violeta80">#CC110214</color>
+    <!--><!-->
+    <color name="H1">#33570505</color>
+    <color name="H2">#80D000FF</color>
+    <color name="H3">#CCD000FF</color>
+    <color name="V1">#33053A57</color>
+    <color name="V2">#59053A57</color>
+    <color name="V3">#80053A57</color>
+    <color name="V4">#A6053A57</color>
+    <color name="V5">#CC053A57</color>
+    <color name="cardView1">#334CFF00</color>
+    <color name="cardView2">#594CFF00</color>
+    <color name="cardView3">#804CFF00</color>
+    <color name="cardView4">#A64CFF00</color>
+    <color name="cardView5">#CC4CFF00</color>
+</resources>

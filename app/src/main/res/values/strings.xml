@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecyclerViewDialogTarea</string>
+    <string name="dialog_h1">H1 (20%)</string>
+    <string name="dialog_h2">H2 (50%)</string>
+    <string name="dialog_h3">H3 (80%)</string>
+    <string name="dialog_v1">V1 (20%)</string>
+    <string name="dialog_v3">V3 (50%)</string>
+    <string name="dialog_v2">V2 (35%)</string>
+    <string name="dialog_v4">V4 (65%)</string>
+    <string name="dialog_v5">V5 (80%)</string>
+</resources>

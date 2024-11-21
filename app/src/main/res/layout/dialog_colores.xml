@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D78D70F4">
+
+    <TextView
+        android:id="@+id/tvEligeUnaBarra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Elige una barra"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@id/tvEligeUnColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEligeUnColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Elige un color"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvEligeUnaBarra"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgBarras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/cvAplicarColor"
+        app:layout_constraintEnd_toStartOf="@id/rgColores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEligeUnaBarra">
+
+        <RadioButton
+            android:id="@+id/BarraH1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text= "@string/dialog_h1"
+            android:textColor="@color/white"
+            app:buttonTint="@color/H1" />
+
+        <RadioButton
+            android:id="@+id/BarraH2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_h2"
+            android:textColor="@color/white"
+            app:buttonTint="@color/H2" />
+
+        <RadioButton
+            android:id="@+id/BarraH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_h3"
+            android:textColor="@color/white"
+            app:buttonTint="@color/H3" />
+
+        <RadioButton
+            android:id="@+id/BarraV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_v1"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/BarraV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_v2"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/BarraV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_v3"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/BarraV4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_v4"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/BarraV5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dialog_v5"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgColores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/cvAplicarColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rgBarras"
+        app:layout_constraintTop_toBottomOf="@id/tvEligeUnColor">
+
+        <RadioButton
+            android:id="@+id/ColorBlanco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Blanco"
+            android:textColor="@color/white"
+            app:buttonTint="@color/white" />
+
+        <RadioButton
+            android:id="@+id/ColorRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Rojo"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Rojo" />
+
+        <RadioButton
+            android:id="@+id/ColorNaranja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Naranja"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Naranja" />
+
+        <RadioButton
+            android:id="@+id/ColorAmarillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Amarillo"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Amarillo" />
+
+        <RadioButton
+            android:id="@+id/ColorVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Verde"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Verde" />
+
+        <RadioButton
+            android:id="@+id/ColorCian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Cián"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Cian" />
+
+        <RadioButton
+            android:id="@+id/ColorAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Azul"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Azul" />
+
+        <RadioButton
+            android:id="@+id/ColorVioleta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Violeta"
+            android:textColor="@color/white"
+            app:buttonTint="@color/Violeta" />
+
+        <RadioButton
+            android:id="@+id/ColorNegro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Negro"
+            android:textColor="@color/white"
+            app:buttonTint="@color/black" />
+    </RadioGroup>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAplicarColor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        app:cardBackgroundColor="#B501FF"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Aplicar color"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="558dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
